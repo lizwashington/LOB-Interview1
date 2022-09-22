@@ -1,0 +1,24 @@
+GET http://localhost:3000/address/search/street?lineOne=1600
+Accept: application/json
+
+###
+
+GET http://localhost:3000/address/search/street?lineOne=Ch
+Accept: application/json
+
+###
+
+GET http://localhost:3000/address/search/state?state=MD
+Accept: application/json
+
+###
+
+GET http://localhost:3000/address/search/zip?zip=21
+Accept: application/json
+
+###
+
+GET http://localhost:3000/address/search/city?city=San Fr
+Accept: application/json
+
+###
